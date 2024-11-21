@@ -1,0 +1,34 @@
+{
+    "name": "vision-ocr",
+    "version": "0.0.1",
+    "description": "Image to markdown (OCR) with Llama 3.2 Vision.",
+    "author": "Saurabh Udupi (@0xSaurabhx)",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/0xSaurabhx/vision-ocr.git"
+    },
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "tsx ./test/index.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^22.9.0",
+        "tsx": "^4.19.2",
+        "typescript": "^5.6.3"
+    },
+    "keywords": [
+        "Groq ai",
+        "vLLMs",
+        "open source",
+        "AI models",
+        "OCR",
+        "Llama"
+    ],
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "groq-sdk": "^0.8.0"
+    }
+}
