@@ -1,0 +1,143 @@
+{
+  "extractedData": {
+    "document_type": "Mathematical Derivation",
+    "equations": [
+      {
+        "equation": "All (k+1) in 0...",
+        "expression": "\\sum_{j=0}^{k} j^2 + (k+1)^2 = \\sum_{j=0}^{k+1} j^2"
+      },
+      {
+        "equation": "",
+        "expression": "\\frac{1}{6} k(k+1)(2k+1) + (k+1)^2 = (k+1) \\left( \\frac{1}{6}(2k+1)k + (k+1) \\right)"
+      },
+      {
+        "equation": "",
+        "expression": "\\frac{1}{6} (k+1) (2k^2+k+ 6(k+1))"
+      },
+      {
+        "equation": "",
+        "expression": "\\frac{1}{6} (k+1) (k+2)(2k+3)"
+      }
+    ],
+    "notes": "",
+    "section": "",
+    "page": "",
+    "content": "",
+    "annotations": "",
+    "metadata": ""
+  },
+  "confidence": {
+    "overall": 0.6211059190031153,
+    "fieldLevel": [
+      {
+        "field": "document_type",
+        "consensus": "Mathematical Derivation",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "Mathematical Derivation",
+          "Mathematical Proof",
+          "Mathematical Derivation"
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "equations",
+        "consensus": "[{\"equation\":\"All (k+1) in 0...\",\"expression\":\"\\\\sum_{j=0}^{k} j^2 + (k+1)^2 = \\\\sum_{j=0}^{k+1} j^2\"},{\"equation\":\"\",\"expression\":\"\\\\frac{1}{6} k(k+1)(2k+1) + (k+1)^2 = (k+1) \\\\left( \\\\frac{1}{6}(2k+1)k + (k+1) \\\\right)\"},{\"equation\":\"\",\"expression\":\"\\\\frac{1}{6} (k+1) (2k^2+k+ 6(k+1))\"},{\"equation\":\"\",\"expression\":\"\\\\frac{1}{6} (k+1) (k+2)(2k+3)\"}]",
+        "agreementScore": 0.30218068535825543,
+        "modelVotes": [
+          "[{\"equation\":\"All (k+1) in 0...\",\"expression\":\"\\\\sum_{j=0}^{k} j^2 + (k+1)^2 = \\\\sum_{j=0}^{k+1} j^2\"},{\"equation\":\"\",\"expression\":\"\\\\frac{1}{6} k(k+1)(2k+1) + (k+1)^2 = (k+1) \\\\left( \\\\frac{1}{6}(2k+1)k + (k+1) \\\\right)\"},{\"equation\":\"\",\"expression\":\"\\\\frac{1}{6} (k+1) (2k^2+k+ 6(k+1))\"},{\"equation\":\"\",\"expression\":\"\\\\frac{1}{6} (k+1) (k+2)(2k+3)\"}]",
+          "",
+          "[{\"equation\":\"All (k+1) in 0...\",\"expression\":\"\\\\sum_{j=0}^{k} j^2 + (k+1)^2 = \\\\sum_{j=0}^{k+1} j^2\"},{\"equation\":\"\",\"expression\":\"\\\\frac{1}{6} k(k+1)(2k+1) + (k+1)^2 = (k+1) \\\\left( \\\\frac{1}{6}(2k+1)k + (k+1) \\\\right) = \\\\frac{1}{6} (k+1) (2k^2 + k + 6(k+1))\"},{\"equation\":\"\",\"expression\":\"\\\\frac{1}{6} (k+1) (k+2)(2k+3)\"}]"
+        ],
+        "needsReview": true
+      },
+      {
+        "field": "notes",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "Section 2 Page 4",
+          "",
+          ""
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "section",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "",
+          "Section 2",
+          ""
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "page",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "",
+          "4",
+          ""
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "content",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "",
+          "[{\"statement\":\"All (k+1) is true\",\"equation\":\"∑[j=0 to k] j^2 + (k+1)^2 = ∑[j=0 to k+1] j^2\"},{\"step\":1,\"equation\":\"1/6 k(k+1)(2k+1) + (k+1)^2\"},{\"step\":2,\"equation\":\"(k+1) (1/6 (2k+1)k + (k+1))\"},{\"step\":3,\"equation\":\"1/6 (k+1) (2k^2 + k + 6(k+1))\"},{\"step\":4,\"equation\":\"1/6 (k+1) (k+2)(2k+3)\"}]",
+          ""
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "annotations",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "",
+          "[{\"type\":\"circle\",\"equation\":\"∑[j=0 to k+1] j^2\"},{\"type\":\"underline\",\"color\":\"red\",\"equation\":\"1/6 (2k+1)k + (k+1)\"},{\"type\":\"underline\",\"color\":\"purple\",\"equation\":\"2k+1\"},{\"type\":\"underline\",\"color\":\"blue\",\"equation\":\"k+1\"},{\"type\":\"underline\",\"color\":\"yellow\",\"equation\":\"1/6 (k+1) (k+2)(2k+3)\"}]",
+          ""
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "metadata",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "",
+          "",
+          "{\"page_number\":\"Section 2 Page 4\"}"
+        ],
+        "needsReview": false
+      }
+    ]
+  },
+  "modelResults": [
+    {
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "content": "{\n  \"document_type\": \"Mathematical Derivation\",\n  \"equations\": [\n    {\n      \"equation\": \"All (k+1) in 0...\",\n      \"expression\": \"\\\\sum_{j=0}^{k} j^2 + (k+1)^2 = \\\\sum_{j=0}^{k+1} j^2\"\n    },\n    {\n      \"equation\": \"\",\n      \"expression\": \"\\\\frac{1}{6} k(k+1)(2k+1) + (k+1)^2 = (k+1) \\\\left( \\\\frac{1}{6}(2k+1)k + (k+1) \\\\right)\"\n    },\n    {\n      \"equation\": \"\",\n      \"expression\": \"\\\\frac{1}{6} (k+1) (2k^2+k+ 6(k+1))\"\n    },\n    {\n      \"equation\": \"\",\n      \"expression\": \"\\\\frac{1}{6} (k+1) (k+2)(2k+3)\"\n    }\n  ],\n  \"notes\": \"Section 2 Page 4\"\n}",
+      "confidence": 1
+    },
+    {
+      "model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+      "content": "{\n  \"document_type\": \"Mathematical Proof\",\n  \"section\": \"Section 2\",\n  \"page\": 4,\n  \"content\": [\n    {\n      \"statement\": \"All (k+1) is true\",\n      \"equation\": \"∑[j=0 to k] j^2 + (k+1)^2 = ∑[j=0 to k+1] j^2\"\n    },\n    {\n      \"step\": 1,\n      \"equation\": \"1/6 k(k+1)(2k+1) + (k+1)^2\"\n    },\n    {\n      \"step\": 2,\n      \"equation\": \"(k+1) (1/6 (2k+1)k + (k+1))\"\n    },\n    {\n      \"step\": 3,\n      \"equation\": \"1/6 (k+1) (2k^2 + k + 6(k+1))\"\n    },\n    {\n      \"step\": 4,\n      \"equation\": \"1/6 (k+1) (k+2)(2k+3)\"\n    }\n  ],\n  \"annotations\": [\n    {\n      \"type\": \"circle\",\n      \"equation\": \"∑[j=0 to k+1] j^2\"\n    },\n    {\n      \"type\": \"underline\",\n      \"color\": \"red\",\n      \"equation\": \"1/6 (2k+1)k + (k+1)\"\n    },\n    {\n      \"type\": \"underline\",\n      \"color\": \"purple\",\n      \"equation\": \"2k+1\"\n    },\n    {\n      \"type\": \"underline\",\n      \"color\": \"blue\",\n      \"equation\": \"k+1\"\n    },\n    {\n      \"type\": \"underline\",\n      \"color\": \"yellow\",\n      \"equation\": \"1/6 (k+1) (k+2)(2k+3)\"\n    }\n  ]\n}",
+      "confidence": 1
+    },
+    {
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "content": "{\n  \"document_type\": \"Mathematical Derivation\",\n  \"equations\": [\n    {\n      \"equation\": \"All (k+1) in 0...\",\n      \"expression\": \"\\\\sum_{j=0}^{k} j^2 + (k+1)^2 = \\\\sum_{j=0}^{k+1} j^2\"\n    },\n    {\n      \"equation\": \"\",\n      \"expression\": \"\\\\frac{1}{6} k(k+1)(2k+1) + (k+1)^2 = (k+1) \\\\left( \\\\frac{1}{6}(2k+1)k + (k+1) \\\\right) = \\\\frac{1}{6} (k+1) (2k^2 + k + 6(k+1))\"\n    },\n    {\n      \"equation\": \"\",\n      \"expression\": \"\\\\frac{1}{6} (k+1) (k+2)(2k+3)\"\n    }\n  ],\n  \"notes\": \"\",\n  \"metadata\": {\n    \"page_number\": \"Section 2 Page 4\"\n  }\n}",
+      "confidence": 1
+    }
+  ],
+  "needsReview": true,
+  "reviewFields": [
+    "equations"
+  ]
+}

@@ -1,5 +1,10 @@
+import { ConfidenceExtractionResult, MultiModelOCROptions } from "./types";
 export declare function ocr({ filePath, apiKey, model, }: {
     filePath: string;
     apiKey?: string;
-    model?: "llama-3.2-11b-vision-preview" | "llama-3.2-90b-vision-preview";
+    model?: string;
 }): Promise<string>;
+/**
+ * Multi-model OCR with confidence scoring
+ */
+export declare function ocrWithConfidence(options: MultiModelOCROptions): Promise<ConfidenceExtractionResult | ConfidenceExtractionResult[]>;

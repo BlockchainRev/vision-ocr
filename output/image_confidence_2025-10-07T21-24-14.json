@@ -1,0 +1,100 @@
+{
+  "extractedData": {
+    "math_problems": "",
+    "mathematical_proof": "",
+    "document_metadata": "",
+    "math_equations": "",
+    "notes": "",
+    "page_info": ""
+  },
+  "confidence": {
+    "overall": 0.6666666666666666,
+    "fieldLevel": [
+      {
+        "field": "math_problems",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "[object Object],[object Object],[object Object],[object Object]",
+          "",
+          ""
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "mathematical_proof",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "",
+          "[object Object]",
+          ""
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "document_metadata",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "",
+          "[object Object]",
+          ""
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "math_equations",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "",
+          "",
+          "[object Object],[object Object],[object Object],[object Object]"
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "notes",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "",
+          "",
+          "[object Object]"
+        ],
+        "needsReview": false
+      },
+      {
+        "field": "page_info",
+        "consensus": "",
+        "agreementScore": 0.6666666666666666,
+        "modelVotes": [
+          "",
+          "",
+          "[object Object]"
+        ],
+        "needsReview": false
+      }
+    ]
+  },
+  "modelResults": [
+    {
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "content": "{\n  \"math_problems\": [\n    {\n      \"equation\": \"\\\\sum_{j=0}^{k} j^2 + (k+1)^2 = \\\\sum_{j=0}^{k+1} j^2\"\n    },\n    {\n      \"equation\": \"\\\\frac{1}{6} k(k+1)(2k+1) + (k+1)^2 = (k+1) \\\\left( \\\\frac{1}{6} (2k+1) k + (k+1) \\\\right)\"\n    },\n    {\n      \"equation\": \"\\\\frac{1}{6} (k+1) (2k^2 + k + 6(k+1))\"\n    },\n    {\n      \"equation\": \"\\\\frac{1}{6} (k+1) (k+2) (2k+3)\"\n    }\n  ]\n}",
+      "confidence": 1
+    },
+    {
+      "model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+      "content": "{\n  \"mathematical_proof\": {\n    \"statement\": \"Add (k+1)\",\n    \"equation\": [\n      {\n        \"left_hand_side\": \"∑ j² from j=0 to k + (k+1)²\",\n        \"right_hand_side\": \"∑ j² from j=0 to k+1\"\n      },\n      {\n        \"left_hand_side\": \"1/6 k(k+1)(2k+1) + (k+1)²\",\n        \"simplification_steps\": [\n          \"(k+1) (1/6 (2k+1)k + (k+1))\",\n          \"1/6 (k+1) (2k² + k + 6(k+1))\",\n          \"1/6 (k+1) (k+2) (2k+3)\"\n        ]\n      }\n    ]\n  },\n  \"document_metadata\": {\n    \"section\": \"Section 2\",\n    \"page_number\": \"Page 4\"\n  }\n}",
+      "confidence": 1
+    },
+    {
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "content": "{\n  \"math_equations\": [\n    {\n      \"equation\": \"\\\\sum_{j=0}^{k} j^2 + (k+1)^2 = \\\\sum_{j=0}^{k+1} j^2\"\n    },\n    {\n      \"equation\": \"\\\\frac{1}{6} k(k+1)(2k+1) + (k+1)^2 = (k+1) \\\\left( \\\\frac{1}{6} (2k+1) k + (k+1) \\\\right)\"\n    },\n    {\n      \"equation\": \"\\\\frac{1}{6} (k+1) (2k^2 + k + 6(k+1))\"\n    },\n    {\n      \"equation\": \"\\\\frac{1}{6} (k+1) (k+2) (2k+3)\"\n    }\n  ],\n  \"notes\": [\n    {\n      \"note\": \"All (k+1) in 0..k\"\n    }\n  ],\n  \"page_info\": {\n    \"section\": \"Section 2\",\n    \"page\": \"Page 4\"\n  }\n}",
+      "confidence": 1
+    }
+  ],
+  "needsReview": true,
+  "reviewFields": []
+}

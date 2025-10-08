@@ -12,7 +12,8 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "test": "tsx ./test/index.ts"
+        "test": "tsx ./test/index.ts",
+        "test:confidence": "tsx ./test/confidence-test.ts"
     },
     "devDependencies": {
         "@types/node": "^22.9.0",
@@ -29,6 +30,8 @@
     ],
     "dependencies": {
         "dotenv": "^16.4.5",
-        "groq-sdk": "^0.8.0"
+        "fastest-levenshtein": "^1.0.16",
+        "groq-sdk": "^0.8.0",
+        "pdf-to-png-converter": "^3.10.0"
     }
 }

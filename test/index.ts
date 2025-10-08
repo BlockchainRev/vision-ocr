@@ -1,14 +1,30 @@
 import { ocr } from "../src/index";
+import fs from "fs";
+import path from "path";
 
 async function main() {
-  let json = await ocr({
-    filePath:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/ReceiptSwiss.jpg/1920px-ReceiptSwiss.jpg",
-    // filePath: "./test/trader-joes-receipt.jpg",
+  const inputPath = "/Users/samaylakhani/vision-ocr/test/106587.pdf";
+
+  let markdown = await ocr({
+    filePath: inputPath,
     apiKey: process.env.GROQ_API_KEY,
   });
 
-  console.log(json);
+  // Generate unique output filename based on input file and timestamp
+  const inputName = path.basename(inputPath, path.extname(inputPath));
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+  const outputPath = path.join(process.cwd(), 'output', `${inputName}_${timestamp}.md`);
+
+  // Create output directory if it doesn't exist
+  const outputDir = path.dirname(outputPath);
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+
+  // Write to file
+  fs.writeFileSync(outputPath, markdown);
+
+  console.log(`✓ Saved to: ${outputPath}`);
 }
 
 main();
